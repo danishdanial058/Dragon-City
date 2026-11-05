@@ -1,0 +1,831 @@
+{
+  "version": 1,
+  "newGame": {
+    "gold": 5000,
+    "food": 200,
+    "gems": 30,
+    "starterDragons": [
+      "emberling",
+      "mossback"
+    ],
+    "starterHabitats": [
+      "hab_fire",
+      "hab_nature"
+    ],
+    "starterFarms": 2
+  },
+  "skills": [
+    {
+      "id": "fire_basic",
+      "name": "Ember Spit",
+      "element": "Fire",
+      "power": 40,
+      "accuracy": 100
+    },
+    {
+      "id": "fire_strong",
+      "name": "Inferno Roar",
+      "element": "Fire",
+      "power": 70,
+      "accuracy": 85
+    },
+    {
+      "id": "water_basic",
+      "name": "Splash Jet",
+      "element": "Water",
+      "power": 40,
+      "accuracy": 100
+    },
+    {
+      "id": "water_strong",
+      "name": "Tidal Crash",
+      "element": "Water",
+      "power": 70,
+      "accuracy": 85
+    },
+    {
+      "id": "earth_basic",
+      "name": "Pebble Toss",
+      "element": "Earth",
+      "power": 40,
+      "accuracy": 100
+    },
+    {
+      "id": "earth_strong",
+      "name": "Quake Stomp",
+      "element": "Earth",
+      "power": 70,
+      "accuracy": 85
+    },
+    {
+      "id": "air_basic",
+      "name": "Gust Slash",
+      "element": "Air",
+      "power": 40,
+      "accuracy": 100
+    },
+    {
+      "id": "air_strong",
+      "name": "Cyclone Dive",
+      "element": "Air",
+      "power": 70,
+      "accuracy": 85
+    },
+    {
+      "id": "nature_basic",
+      "name": "Thorn Lash",
+      "element": "Nature",
+      "power": 40,
+      "accuracy": 100
+    },
+    {
+      "id": "nature_strong",
+      "name": "Bloom Burst",
+      "element": "Nature",
+      "power": 70,
+      "accuracy": 85
+    },
+    {
+      "id": "lightning_basic",
+      "name": "Static Snap",
+      "element": "Lightning",
+      "power": 40,
+      "accuracy": 100
+    },
+    {
+      "id": "lightning_strong",
+      "name": "Thunder Lance",
+      "element": "Lightning",
+      "power": 70,
+      "accuracy": 85
+    },
+    {
+      "id": "ice_basic",
+      "name": "Frost Bite",
+      "element": "Ice",
+      "power": 40,
+      "accuracy": 100
+    },
+    {
+      "id": "ice_strong",
+      "name": "Glacier Fall",
+      "element": "Ice",
+      "power": 70,
+      "accuracy": 85
+    },
+    {
+      "id": "metal_basic",
+      "name": "Iron Claw",
+      "element": "Metal",
+      "power": 40,
+      "accuracy": 100
+    },
+    {
+      "id": "metal_strong",
+      "name": "Forge Hammer",
+      "element": "Metal",
+      "power": 70,
+      "accuracy": 85
+    },
+    {
+      "id": "shadow_basic",
+      "name": "Shade Fang",
+      "element": "Shadow",
+      "power": 40,
+      "accuracy": 100
+    },
+    {
+      "id": "shadow_strong",
+      "name": "Void Pulse",
+      "element": "Shadow",
+      "power": 70,
+      "accuracy": 85
+    },
+    {
+      "id": "light_basic",
+      "name": "Glint Ray",
+      "element": "Light",
+      "power": 40,
+      "accuracy": 100
+    },
+    {
+      "id": "light_strong",
+      "name": "Solar Flare",
+      "element": "Light",
+      "power": 70,
+      "accuracy": 85
+    }
+  ],
+  "species": [
+    {
+      "id": "emberling",
+      "name": "Emberling",
+      "description": "A hot-headed hatchling that sneezes sparks.",
+      "elements": [
+        "Fire"
+      ],
+      "rarity": "Common",
+      "baseHealth": 280,
+      "baseAttack": 88,
+      "goldPerMinute": 6,
+      "breedSeconds": 60,
+      "hatchSeconds": 30,
+      "breedable": true,
+      "shopGold": 1000,
+      "skills": [
+        "fire_basic",
+        "fire_strong"
+      ],
+      "mesh": ""
+    },
+    {
+      "id": "tidepup",
+      "name": "Tidepup",
+      "description": "Splashes everyone it likes. It likes everyone.",
+      "elements": [
+        "Water"
+      ],
+      "rarity": "Common",
+      "baseHealth": 320,
+      "baseAttack": 76,
+      "goldPerMinute": 6,
+      "breedSeconds": 60,
+      "hatchSeconds": 30,
+      "breedable": true,
+      "shopGold": 1500,
+      "skills": [
+        "water_basic",
+        "water_strong"
+      ],
+      "mesh": ""
+    },
+    {
+      "id": "pebblehorn",
+      "name": "Pebblehorn",
+      "description": "Collects shiny stones and naps on them.",
+      "elements": [
+        "Earth"
+      ],
+      "rarity": "Common",
+      "baseHealth": 340,
+      "baseAttack": 72,
+      "goldPerMinute": 6,
+      "breedSeconds": 60,
+      "hatchSeconds": 30,
+      "breedable": true,
+      "shopGold": 1500,
+      "skills": [
+        "earth_basic",
+        "earth_strong"
+      ],
+      "mesh": ""
+    },
+    {
+      "id": "zephyrkin",
+      "name": "Zephyrkin",
+      "description": "Never lands if it can help it.",
+      "elements": [
+        "Air"
+      ],
+      "rarity": "Common",
+      "baseHealth": 270,
+      "baseAttack": 90,
+      "goldPerMinute": 6,
+      "breedSeconds": 60,
+      "hatchSeconds": 30,
+      "breedable": true,
+      "shopGold": 1500,
+      "skills": [
+        "air_basic",
+        "air_strong"
+      ],
+      "mesh": ""
+    },
+    {
+      "id": "mossback",
+      "name": "Mossback",
+      "description": "Small flowers grow wherever it sleeps.",
+      "elements": [
+        "Nature"
+      ],
+      "rarity": "Common",
+      "baseHealth": 330,
+      "baseAttack": 74,
+      "goldPerMinute": 6,
+      "breedSeconds": 60,
+      "hatchSeconds": 30,
+      "breedable": true,
+      "shopGold": 1000,
+      "skills": [
+        "nature_basic",
+        "nature_strong"
+      ],
+      "mesh": ""
+    },
+    {
+      "id": "sparkwing",
+      "name": "Sparkwing",
+      "description": "Its wings crackle when it is excited.",
+      "elements": [
+        "Lightning"
+      ],
+      "rarity": "Common",
+      "baseHealth": 280,
+      "baseAttack": 92,
+      "goldPerMinute": 6,
+      "breedSeconds": 60,
+      "hatchSeconds": 30,
+      "breedable": true,
+      "shopGold": 2500,
+      "skills": [
+        "lightning_basic",
+        "lightning_strong"
+      ],
+      "mesh": ""
+    },
+    {
+      "id": "frostnip",
+      "name": "Frostnip",
+      "description": "Leaves tiny frost footprints.",
+      "elements": [
+        "Ice"
+      ],
+      "rarity": "Common",
+      "baseHealth": 310,
+      "baseAttack": 82,
+      "goldPerMinute": 6,
+      "breedSeconds": 60,
+      "hatchSeconds": 30,
+      "breedable": true,
+      "shopGold": 2500,
+      "skills": [
+        "ice_basic",
+        "ice_strong"
+      ],
+      "mesh": ""
+    },
+    {
+      "id": "rivetscale",
+      "name": "Rivetscale",
+      "description": "Clanks softly when it walks.",
+      "elements": [
+        "Metal"
+      ],
+      "rarity": "Common",
+      "baseHealth": 350,
+      "baseAttack": 70,
+      "goldPerMinute": 6,
+      "breedSeconds": 60,
+      "hatchSeconds": 30,
+      "breedable": true,
+      "shopGold": 2500,
+      "skills": [
+        "metal_basic",
+        "metal_strong"
+      ],
+      "mesh": ""
+    },
+    {
+      "id": "duskmaw",
+      "name": "Duskmaw",
+      "description": "Only seen clearly at twilight.",
+      "elements": [
+        "Shadow"
+      ],
+      "rarity": "Common",
+      "baseHealth": 290,
+      "baseAttack": 90,
+      "goldPerMinute": 6,
+      "breedSeconds": 60,
+      "hatchSeconds": 30,
+      "breedable": true,
+      "shopGold": 4000,
+      "skills": [
+        "shadow_basic",
+        "shadow_strong"
+      ],
+      "mesh": ""
+    },
+    {
+      "id": "glimmerwing",
+      "name": "Glimmerwing",
+      "description": "Glows brighter when it is happy.",
+      "elements": [
+        "Light"
+      ],
+      "rarity": "Common",
+      "baseHealth": 300,
+      "baseAttack": 86,
+      "goldPerMinute": 6,
+      "breedSeconds": 60,
+      "hatchSeconds": 30,
+      "breedable": true,
+      "shopGold": 4000,
+      "skills": [
+        "light_basic",
+        "light_strong"
+      ],
+      "mesh": ""
+    },
+    {
+      "id": "steamtail",
+      "name": "Steamtail",
+      "description": "Hisses gently when it purrs.",
+      "elements": [
+        "Fire",
+        "Water"
+      ],
+      "rarity": "Rare",
+      "baseHealth": 380,
+      "baseAttack": 95,
+      "goldPerMinute": 12,
+      "breedSeconds": 600,
+      "hatchSeconds": 300,
+      "breedable": true,
+      "shopGold": 0,
+      "skills": [
+        "fire_basic",
+        "water_basic",
+        "fire_strong",
+        "water_strong"
+      ],
+      "mesh": ""
+    },
+    {
+      "id": "magmaw",
+      "name": "Magmaw",
+      "description": "Chews volcanic rock for breakfast.",
+      "elements": [
+        "Fire",
+        "Earth"
+      ],
+      "rarity": "Rare",
+      "baseHealth": 420,
+      "baseAttack": 95,
+      "goldPerMinute": 12,
+      "breedSeconds": 600,
+      "hatchSeconds": 300,
+      "breedable": true,
+      "shopGold": 0,
+      "skills": [
+        "fire_basic",
+        "earth_basic",
+        "fire_strong",
+        "earth_strong"
+      ],
+      "mesh": ""
+    },
+    {
+      "id": "cinderbloom",
+      "name": "Cinderbloom",
+      "description": "Its petals smoulder but never burn.",
+      "elements": [
+        "Fire",
+        "Nature"
+      ],
+      "rarity": "Rare",
+      "baseHealth": 370,
+      "baseAttack": 103,
+      "goldPerMinute": 12,
+      "breedSeconds": 600,
+      "hatchSeconds": 300,
+      "breedable": true,
+      "shopGold": 0,
+      "skills": [
+        "fire_basic",
+        "nature_basic",
+        "fire_strong",
+        "nature_strong"
+      ],
+      "mesh": ""
+    },
+    {
+      "id": "bogglewump",
+      "name": "Bogglewump",
+      "description": "Lives happily in the muddiest pond.",
+      "elements": [
+        "Water",
+        "Nature"
+      ],
+      "rarity": "Rare",
+      "baseHealth": 410,
+      "baseAttack": 90,
+      "goldPerMinute": 12,
+      "breedSeconds": 600,
+      "hatchSeconds": 300,
+      "breedable": true,
+      "shopGold": 0,
+      "skills": [
+        "water_basic",
+        "nature_basic",
+        "water_strong",
+        "nature_strong"
+      ],
+      "mesh": ""
+    },
+    {
+      "id": "floebreaker",
+      "name": "Floebreaker",
+      "description": "Rides icebergs for fun.",
+      "elements": [
+        "Water",
+        "Ice"
+      ],
+      "rarity": "Rare",
+      "baseHealth": 400,
+      "baseAttack": 95,
+      "goldPerMinute": 12,
+      "breedSeconds": 600,
+      "hatchSeconds": 300,
+      "breedable": true,
+      "shopGold": 0,
+      "skills": [
+        "water_basic",
+        "ice_basic",
+        "water_strong",
+        "ice_strong"
+      ],
+      "mesh": ""
+    },
+    {
+      "id": "stormcrest",
+      "name": "Stormcrest",
+      "description": "Arrives with the thunderclouds.",
+      "elements": [
+        "Air",
+        "Lightning"
+      ],
+      "rarity": "Rare",
+      "baseHealth": 360,
+      "baseAttack": 107,
+      "goldPerMinute": 12,
+      "breedSeconds": 600,
+      "hatchSeconds": 300,
+      "breedable": true,
+      "shopGold": 0,
+      "skills": [
+        "air_basic",
+        "lightning_basic",
+        "air_strong",
+        "lightning_strong"
+      ],
+      "mesh": ""
+    },
+    {
+      "id": "dunewhirl",
+      "name": "Dunewhirl",
+      "description": "A walking sandstorm with a big smile.",
+      "elements": [
+        "Earth",
+        "Air"
+      ],
+      "rarity": "Rare",
+      "baseHealth": 380,
+      "baseAttack": 99,
+      "goldPerMinute": 12,
+      "breedSeconds": 600,
+      "hatchSeconds": 300,
+      "breedable": true,
+      "shopGold": 0,
+      "skills": [
+        "earth_basic",
+        "air_basic",
+        "earth_strong",
+        "air_strong"
+      ],
+      "mesh": ""
+    },
+    {
+      "id": "forgeheart",
+      "name": "Forgeheart",
+      "description": "Its heart burns like a blacksmith's furnace.",
+      "elements": [
+        "Fire",
+        "Metal"
+      ],
+      "rarity": "Epic",
+      "baseHealth": 490,
+      "baseAttack": 116,
+      "goldPerMinute": 20,
+      "breedSeconds": 3600,
+      "hatchSeconds": 1800,
+      "breedable": true,
+      "shopGold": 0,
+      "skills": [
+        "fire_basic",
+        "metal_basic",
+        "fire_strong",
+        "metal_strong"
+      ],
+      "mesh": ""
+    },
+    {
+      "id": "thornshade",
+      "name": "Thornshade",
+      "description": "Hides in dark forests, guarding old trees.",
+      "elements": [
+        "Nature",
+        "Shadow"
+      ],
+      "rarity": "Epic",
+      "baseHealth": 460,
+      "baseAttack": 120,
+      "goldPerMinute": 20,
+      "breedSeconds": 3600,
+      "hatchSeconds": 1800,
+      "breedable": true,
+      "shopGold": 0,
+      "skills": [
+        "nature_basic",
+        "shadow_basic",
+        "nature_strong",
+        "shadow_strong"
+      ],
+      "mesh": ""
+    },
+    {
+      "id": "prismara",
+      "name": "Prismara",
+      "description": "Bends sunlight into rainbows.",
+      "elements": [
+        "Ice",
+        "Light"
+      ],
+      "rarity": "Epic",
+      "baseHealth": 450,
+      "baseAttack": 122,
+      "goldPerMinute": 20,
+      "breedSeconds": 3600,
+      "hatchSeconds": 1800,
+      "breedable": true,
+      "shopGold": 0,
+      "skills": [
+        "ice_basic",
+        "light_basic",
+        "ice_strong",
+        "light_strong"
+      ],
+      "mesh": ""
+    },
+    {
+      "id": "voltclad",
+      "name": "Voltclad",
+      "description": "Armour plates hum with stored lightning.",
+      "elements": [
+        "Lightning",
+        "Metal"
+      ],
+      "rarity": "Epic",
+      "baseHealth": 480,
+      "baseAttack": 118,
+      "goldPerMinute": 20,
+      "breedSeconds": 3600,
+      "hatchSeconds": 1800,
+      "breedable": true,
+      "shopGold": 0,
+      "skills": [
+        "lightning_basic",
+        "metal_basic",
+        "lightning_strong",
+        "metal_strong"
+      ],
+      "mesh": ""
+    },
+    {
+      "id": "eclipsar",
+      "name": "Eclipsar",
+      "description": "Half day, half night, wholly mysterious.",
+      "elements": [
+        "Shadow",
+        "Light"
+      ],
+      "rarity": "Epic",
+      "baseHealth": 460,
+      "baseAttack": 124,
+      "goldPerMinute": 20,
+      "breedSeconds": 3600,
+      "hatchSeconds": 1800,
+      "breedable": true,
+      "shopGold": 0,
+      "skills": [
+        "shadow_basic",
+        "light_basic",
+        "shadow_strong",
+        "light_strong"
+      ],
+      "mesh": ""
+    },
+    {
+      "id": "solarch",
+      "name": "Solarch",
+      "description": "Said to have hatched from a fallen star.",
+      "elements": [
+        "Fire",
+        "Light"
+      ],
+      "rarity": "Legendary",
+      "baseHealth": 560,
+      "baseAttack": 130,
+      "goldPerMinute": 30,
+      "breedSeconds": 14400,
+      "hatchSeconds": 7200,
+      "breedable": true,
+      "shopGold": 0,
+      "skills": [
+        "fire_basic",
+        "light_basic",
+        "fire_strong",
+        "light_strong"
+      ],
+      "mesh": "",
+      "recipe": [
+        "forgeheart",
+        "eclipsar"
+      ]
+    },
+    {
+      "id": "leviathorn",
+      "name": "Leviathorn",
+      "description": "Ruler of the deep, dark seas.",
+      "elements": [
+        "Water",
+        "Shadow"
+      ],
+      "rarity": "Legendary",
+      "baseHealth": 560,
+      "baseAttack": 130,
+      "goldPerMinute": 30,
+      "breedSeconds": 14400,
+      "hatchSeconds": 7200,
+      "breedable": true,
+      "shopGold": 0,
+      "skills": [
+        "water_basic",
+        "shadow_basic",
+        "water_strong",
+        "shadow_strong"
+      ],
+      "mesh": "",
+      "recipe": [
+        "floebreaker",
+        "thornshade"
+      ]
+    }
+  ],
+  "habitats": [
+    {
+      "id": "hab_fire",
+      "name": "Fire Habitat",
+      "element": "Fire",
+      "capacity": 3,
+      "goldCap": 3000,
+      "cost": 1000
+    },
+    {
+      "id": "hab_water",
+      "name": "Water Habitat",
+      "element": "Water",
+      "capacity": 3,
+      "goldCap": 3000,
+      "cost": 2000
+    },
+    {
+      "id": "hab_earth",
+      "name": "Earth Habitat",
+      "element": "Earth",
+      "capacity": 3,
+      "goldCap": 3000,
+      "cost": 2000
+    },
+    {
+      "id": "hab_air",
+      "name": "Air Habitat",
+      "element": "Air",
+      "capacity": 3,
+      "goldCap": 3000,
+      "cost": 2000
+    },
+    {
+      "id": "hab_nature",
+      "name": "Nature Habitat",
+      "element": "Nature",
+      "capacity": 3,
+      "goldCap": 3000,
+      "cost": 1000
+    },
+    {
+      "id": "hab_lightning",
+      "name": "Lightning Habitat",
+      "element": "Lightning",
+      "capacity": 3,
+      "goldCap": 5000,
+      "cost": 5000
+    },
+    {
+      "id": "hab_ice",
+      "name": "Ice Habitat",
+      "element": "Ice",
+      "capacity": 3,
+      "goldCap": 5000,
+      "cost": 5000
+    },
+    {
+      "id": "hab_metal",
+      "name": "Metal Habitat",
+      "element": "Metal",
+      "capacity": 3,
+      "goldCap": 5000,
+      "cost": 5000
+    },
+    {
+      "id": "hab_shadow",
+      "name": "Shadow Habitat",
+      "element": "Shadow",
+      "capacity": 3,
+      "goldCap": 5000,
+      "cost": 10000
+    },
+    {
+      "id": "hab_light",
+      "name": "Light Habitat",
+      "element": "Light",
+      "capacity": 3,
+      "goldCap": 5000,
+      "cost": 10000
+    }
+  ],
+  "crops": [
+    {
+      "id": "sunberry",
+      "name": "Sunberries",
+      "cost": 25,
+      "food": 6,
+      "growSeconds": 30
+    },
+    {
+      "id": "emberroot",
+      "name": "Emberroot",
+      "cost": 120,
+      "food": 30,
+      "growSeconds": 300
+    },
+    {
+      "id": "dragonfruit",
+      "name": "Dragonfruit",
+      "cost": 500,
+      "food": 120,
+      "growSeconds": 1800
+    },
+    {
+      "id": "starmelon",
+      "name": "Starmelon",
+      "cost": 1500,
+      "food": 400,
+      "growSeconds": 7200
+    }
+  ],
+  "buildings": {
+    "farmCost": 300,
+    "farmCapacity": 1
+  }
+}

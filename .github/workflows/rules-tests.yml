@@ -1,0 +1,17 @@
+name: Rules tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate game data
+        run: python3 Tools/validate_data.py
+      - name: Rules tests (clang)
+        run: make -C Tests CXX=clang++
+      - name: Rules tests (gcc)
+        run: make -C Tests clean test CXX=g++

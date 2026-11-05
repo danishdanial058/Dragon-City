@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.5",
+	"Category": "",
+	"Description": "Wyrmhaven - breed, raise and battle dragons on your floating island.",
+	"Modules": [
+		{
+			"Name": "Wyrmhaven",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
